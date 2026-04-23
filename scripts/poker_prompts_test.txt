@@ -1,0 +1,245 @@
+================================================================================
+POKER ROUND PROMPTS TEST
+Generated at: 2025-06-21 15:27:01
+================================================================================
+
+SCENARIO:
+- Player: TestPlayer (Position varies by street)
+- Hole Cards: A♠ K♠ (strong starting hand)
+- Opponents: Alex Chen, Sarah Johnson, Michael Davis
+- Simulated actions from preflop to river
+
+============================================================
+PROMPT #1 - PREFLOP STREET
+Time: 15:27:01
+============================================================
+
+You are a professional poker player, playing against other professional poker players, and you aim to make the most money in the long run. 
+
+Current game state:
+- Your hole cards: ['As', 'Ks']
+- Community cards: []
+- Current street: preflop
+- Hand type: PAIR
+- Hand strength: 0.7500
+- Pot size: 15
+- Call amount: 10
+- Minimum raise: 20
+- Maximum raise: 500
+- Pot odds: 0.40
+
+Table Info:
+- Players: 4, Your position: Small Blind, Your stack: 9900
+- Opponent stacks: Alex Chen(9850) Sarah Johnson(9750) Michael Davis(10100)
+
+Opponent Actions This Round:
+- Preflop:
+  * Sarah Johnson (Stack: 9750): SMALL BLIND 5
+  * Michael Davis (Stack: 10100): BIG BLIND 10
+
+
+Please provide your analysis and decision in the following format:
+
+ANALYSIS:
+[Provide a concise analysis of the current situation, considering hand strength, pot odds, position, opponent actions, and optimal strategy]
+
+DECISION:
+{"action": "FOLD/CALL/RAISE", "amount": integer_if_raise}
+
+Important:
+- Keep your analysis concise but insightful (2-3 sentences)
+- Consider pot odds, hand strength, opponent behavior patterns, and strategic implications
+- Pay attention to opponent aggression levels and betting patterns for potential bluffs or value bets
+- The JSON must be valid and parsable
+- Only include "amount" field if action is "RAISE"
+
+Examples:
+ANALYSIS: Strong pocket pair with good pot odds. Opponent has been passive, so betting for value against likely weaker hands.
+DECISION: {"action": "RAISE", "amount": 50}
+
+ANALYSIS: Weak hand with poor pot odds and aggressive opponent raising. Folding to preserve chips against likely stronger range.
+DECISION: {"action": "FOLD"}
+
+============================================================
+PROMPT #2 - FLOP STREET
+Time: 15:27:01
+============================================================
+
+You are a professional poker player, playing against other professional poker players, and you aim to make the most money in the long run. 
+
+Current game state:
+- Your hole cards: ['As', 'Ks']
+- Community cards: ['Ah', '8c', '7d']
+- Current street: flop
+- Hand type: UNKNOWN
+- Hand strength: 0.5000
+- Pot size: 60
+- Call amount: 30
+- Minimum raise: 40
+- Maximum raise: 500
+- Pot odds: 0.33
+
+Table Info:
+- Players: 4, Your position: Small Blind, Your stack: 9880
+- Opponent stacks: Alex Chen(9830) Sarah Johnson(9735) Michael Davis(10080)
+
+Opponent Actions This Round:
+- Preflop:
+  * Sarah Johnson (Stack: 9735): SMALL BLIND 5
+  * Michael Davis (Stack: 10080): BIG BLIND 10
+  * Alex Chen (Stack: 9830): CALL 10
+  * Sarah Johnson (Stack: 9735): CALL 5
+- Flop:
+  * Sarah Johnson (Stack: 9735): CALL 15
+  * Michael Davis (Stack: 10080): RAISE to 30
+  * Alex Chen (Stack: 9830): FOLD
+
+
+Please provide your analysis and decision in the following format:
+
+ANALYSIS:
+[Provide a concise analysis of the current situation, considering hand strength, pot odds, position, opponent actions, and optimal strategy]
+
+DECISION:
+{"action": "FOLD/CALL/RAISE", "amount": integer_if_raise}
+
+Important:
+- Keep your analysis concise but insightful (2-3 sentences)
+- Consider pot odds, hand strength, opponent behavior patterns, and strategic implications
+- Pay attention to opponent aggression levels and betting patterns for potential bluffs or value bets
+- The JSON must be valid and parsable
+- Only include "amount" field if action is "RAISE"
+
+Examples:
+ANALYSIS: Strong pocket pair with good pot odds. Opponent has been passive, so betting for value against likely weaker hands.
+DECISION: {"action": "RAISE", "amount": 50}
+
+ANALYSIS: Weak hand with poor pot odds and aggressive opponent raising. Folding to preserve chips against likely stronger range.
+DECISION: {"action": "FOLD"}
+
+============================================================
+PROMPT #3 - TURN STREET
+Time: 15:27:01
+============================================================
+
+You are a professional poker player, playing against other professional poker players, and you aim to make the most money in the long run. 
+
+Current game state:
+- Your hole cards: ['As', 'Ks']
+- Community cards: ['Ah', '8c', '7d', 'Kh']
+- Current street: turn
+- Hand type: UNKNOWN
+- Hand strength: 0.5000
+- Pot size: 120
+- Call amount: 50
+- Minimum raise: 40
+- Maximum raise: 500
+- Pot odds: 0.29
+
+Table Info:
+- Players: 3, Your position: Small Blind, Your stack: 9850
+- Opponent stacks: Sarah Johnson(9720) Michael Davis(10050)
+
+Opponent Actions This Round:
+- Preflop:
+  * Sarah Johnson (Stack: 9720): SMALL BLIND 5
+  * Michael Davis (Stack: 10050): BIG BLIND 10
+  * Alex Chen (Stack: 9830): CALL 10
+  * Sarah Johnson (Stack: 9720): CALL 5
+- Flop:
+  * Sarah Johnson (Stack: 9720): CALL 15
+  * Michael Davis (Stack: 10050): RAISE to 30
+  * Alex Chen (Stack: 9830): FOLD
+  * Sarah Johnson (Stack: 9720): CALL 15
+- Turn:
+  * Sarah Johnson (Stack: 9720): CALL 20
+  * Michael Davis (Stack: 10050): RAISE to 50
+
+
+Please provide your analysis and decision in the following format:
+
+ANALYSIS:
+[Provide a concise analysis of the current situation, considering hand strength, pot odds, position, opponent actions, and optimal strategy]
+
+DECISION:
+{"action": "FOLD/CALL/RAISE", "amount": integer_if_raise}
+
+Important:
+- Keep your analysis concise but insightful (2-3 sentences)
+- Consider pot odds, hand strength, opponent behavior patterns, and strategic implications
+- Pay attention to opponent aggression levels and betting patterns for potential bluffs or value bets
+- The JSON must be valid and parsable
+- Only include "amount" field if action is "RAISE"
+
+Examples:
+ANALYSIS: Strong pocket pair with good pot odds. Opponent has been passive, so betting for value against likely weaker hands.
+DECISION: {"action": "RAISE", "amount": 50}
+
+ANALYSIS: Weak hand with poor pot odds and aggressive opponent raising. Folding to preserve chips against likely stronger range.
+DECISION: {"action": "FOLD"}
+
+============================================================
+PROMPT #4 - RIVER STREET
+Time: 15:27:01
+============================================================
+
+You are a professional poker player, playing against other professional poker players, and you aim to make the most money in the long run. 
+
+Current game state:
+- Your hole cards: ['As', 'Ks']
+- Community cards: ['Ah', '8c', '7d', 'Kh', '2s']
+- Current street: river
+- Hand type: UNKNOWN
+- Hand strength: 0.5000
+- Pot size: 190
+- Call amount: 75
+- Minimum raise: 40
+- Maximum raise: 500
+- Pot odds: 0.28
+
+Table Info:
+- Players: 3, Your position: Small Blind, Your stack: 9800
+- Opponent stacks: Sarah Johnson(9700) Michael Davis(10000)
+
+Opponent Actions This Round:
+- Preflop:
+  * Sarah Johnson (Stack: 9700): SMALL BLIND 5
+  * Michael Davis (Stack: 10000): BIG BLIND 10
+  * Alex Chen (Stack: 9830): CALL 10
+  * Sarah Johnson (Stack: 9700): CALL 5
+- Flop:
+  * Sarah Johnson (Stack: 9700): CALL 15
+  * Michael Davis (Stack: 10000): RAISE to 30
+  * Alex Chen (Stack: 9830): FOLD
+  * Sarah Johnson (Stack: 9700): CALL 15
+- Turn:
+  * Sarah Johnson (Stack: 9700): CALL 20
+  * Michael Davis (Stack: 10000): RAISE to 50
+  * Sarah Johnson (Stack: 9700): CALL 30
+- River:
+  * Sarah Johnson (Stack: 9700): CALL 25
+  * Michael Davis (Stack: 10000): RAISE to 75
+
+
+Please provide your analysis and decision in the following format:
+
+ANALYSIS:
+[Provide a concise analysis of the current situation, considering hand strength, pot odds, position, opponent actions, and optimal strategy]
+
+DECISION:
+{"action": "FOLD/CALL/RAISE", "amount": integer_if_raise}
+
+Important:
+- Keep your analysis concise but insightful (2-3 sentences)
+- Consider pot odds, hand strength, opponent behavior patterns, and strategic implications
+- Pay attention to opponent aggression levels and betting patterns for potential bluffs or value bets
+- The JSON must be valid and parsable
+- Only include "amount" field if action is "RAISE"
+
+Examples:
+ANALYSIS: Strong pocket pair with good pot odds. Opponent has been passive, so betting for value against likely weaker hands.
+DECISION: {"action": "RAISE", "amount": 50}
+
+ANALYSIS: Weak hand with poor pot odds and aggressive opponent raising. Folding to preserve chips against likely stronger range.
+DECISION: {"action": "FOLD"}
+
